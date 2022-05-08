@@ -1,23 +1,23 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <TodoList />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TodoList from "./components/TodoList.vue";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    HelloWorld,
+    TodoList,
   },
 
   data: () => ({
     //
   }),
-}
+};
 </script>
