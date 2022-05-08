@@ -13,7 +13,7 @@
           </v-col>
         </v-row>
         <v-row class="text-center">
-          <ul>
+          <ul class="todos-list">
             <li cols="12" v-for="(item, i) in documents" :key="i" class="mt-n6">
               <div class="d-flex flex-start">
                 <div class="mr-5">
@@ -63,3 +63,9 @@ export default {
   },
 }
 </script>
+
+<style>
+.todos-list {
+  list-style: none;
+}
+</style>
